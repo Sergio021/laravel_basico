@@ -59,7 +59,7 @@ Route::get('/redireccion4/{base}/{altura}', function ($base, $altura) {
     return redirect("/areaRectangulo2/$base/$altura");
 });
 
-
+//Crear controlador: php artisan make:controller nombre-controlador --> se guarda en app/Http/Controllers
 // Manda al controlador
 Route::get('mensaje', [EmpleadosController::class,'mensaje']);
 
